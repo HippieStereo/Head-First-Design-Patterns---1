@@ -9,3 +9,14 @@ BOOK -> Head First Design Patterns
 Source Code -> Head First Design Patterns
 
     https://resources.oreilly.com/examples/9780596007126
+
+:: Strategy Pattern ::
+* Encapsulates interchangeable behaviors
+* Uses delegation to decide witch one to use
+* Changing behaviors out of prent class ; use interface
+* Take the parts that vary and encapsulate them ;  you can alter or extend without affecting others
+* Keep things flexible
+* Change behavior dynamically ; at runtime
+* Polymorphism ; the class declaring doesn't have to know about the actual object type
+* Favor composition over inheritance ; more flexibility
+* Program to a interface, not a implementation
