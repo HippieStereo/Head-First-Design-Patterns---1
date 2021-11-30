@@ -1,0 +1,9 @@
+- Strategy Pattern
+    . Encapsulates interchangeable behaviors and uses delegation to decide with one to use
+    . Changing behaviors out of prent class ; use interface
+    . Take the parts that vary and encapsulate them so that later you can alter or extend them without affecting others
+    . Keep things flexible
+    . Change behavior dynamically ; at runtime
+    . Polymorphism ; the class declaring doesn't have to know about the actual object type
+    . Favor composition over inheritance ; more flexibility
+    . Program to a interface, not a implementation
